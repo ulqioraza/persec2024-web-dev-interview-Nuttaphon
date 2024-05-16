@@ -67,7 +67,7 @@ export default function AutoComplete() {
               <div className="">
                 
               {stringArray.map((val, key) => (
-                <div>
+                <div key={key}>
                 {val}
                </div>
               ))} 
@@ -75,7 +75,7 @@ export default function AutoComplete() {
             </div>
             {result.map((val, key) => (
               key < maxResult ?
-             <div>
+             <div key={key}>
               {val}
              </div>
              :""
