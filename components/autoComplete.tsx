@@ -65,6 +65,7 @@ export default function AutoComplete() {
             </div>
             <div className={`flex w-[255px] h-[200px] px-2 mt-[100px] border-2 rounded-2xl`}>
               <div className="">
+                
               {stringArray.map((val, key) => (
                 <div>
                 {val}
